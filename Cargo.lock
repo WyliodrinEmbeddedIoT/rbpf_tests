@@ -71,12 +71,6 @@ dependencies = [
 [[package]]
 name = "rbpf"
 version = "0.1.0"
-dependencies = [
- "byteorder 1.4.2",
- "combine",
- "libc",
- "time",
-]
 
 [[package]]
 name = "time"

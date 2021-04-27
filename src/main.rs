@@ -1037,7 +1037,7 @@ fn main() {
     println!("");
 
     filename = "src/ld_dw_imm.o";
-    println!("Loading into register r1 a 64bit value 0xffffffffffffffff: {:x?}", filename);
+    println!("Loading into register r1 a 64bit value 0x0807060504030201: {:x?}", filename);
     
     path = PathBuf::from(filename);
     file = match elf::File::open_path(&path) {
